@@ -90,9 +90,9 @@ def main_menu():
         ],
         [
             custom.Button.inline(" Alive ", data="stats"),
-            Button.url("❰𝗢𝗪𝗡𝗘𝗥❱", "https://t.me/OFFICIALHACKERERA"),
+            Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/OFFICIALHACKERERA"),
         ],
-        [custom.Button.inline("❰𝗖𝗟𝗢𝗦𝗘❱", data="clise")],
+        [custom.Button.inline("𝗖𝗟𝗢𝗦𝗘", data="clise")],
     ]
     return text, buttons
 
@@ -248,8 +248,8 @@ async def inline_handler(event):  # sourcery no-metrics
             buttons = [
                 (Button.url(f"{ALIVE_NAME}", f"tg://openmessage?user_id={USERID}"),),
                 (
-                    Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/ITS-LEGENDBOT/LEGENDBOT"),
+                    Button.inline("", data="stats"),
+                    Button.url("", "https://github.com/ITS-LEGENDBOT/LEGENDBOT"),
                 ),
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -263,7 +263,7 @@ async def inline_handler(event):  # sourcery no-metrics
                 PIC = list(legend)
                 I_IMG = random.choice(PIC)
             elif not IALIVE_PIC:
-                I_IMG = "https://telegra.ph/file/b192824be85982ae0e426.mp4"
+                I_IMG = "https://telegra.ph/file/a09cadf1d4024d405a8a0.jpg"
             if I_IMG and I_IMG.endswith((".jpg", ".png")):
                 result = builder.photo(
                     I_IMG,
