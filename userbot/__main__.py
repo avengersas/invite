@@ -28,7 +28,7 @@ cmdhr = Config.HANDLER
 try:
     LOGS.info("STARTING BOT")
     legend.loop.run_until_complete(setup_bot())
-    LOGS.info("TG Bot Startup Completed")
+    LOGS.info("OFFICIALHACKERERA")
 except Exception as e:
     LOGS.error(f"{e}")
     sys.exit()
