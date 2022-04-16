@@ -42,7 +42,7 @@ async def startup_process():
     await spams()
     print("----------------")
     print("STARRING BOT")
-    print(" DEPLOYED SUCCESSFULLY")
+    print(" DEPLOYED SUCCESSFULLY 🥳")
     print("OWNER - @OFFICIALHACKERERA")
     print("----------------")
     await verifyLoggerGroup()
