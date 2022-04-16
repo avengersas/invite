@@ -588,7 +588,7 @@ async def inline_handler(event):  # sourcery no-metrics
             ]
             PM_PIC = (
                 gvarstatus("PM_PIC")
-                or "https://telegra.ph/file/29a54e920cd2b9a966e3d.jpg"
+                or "https://telegra.ph/file/a09cadf1d4024d405a8a0.jpg"
             )
             if PM_PIC:
                 legend = [x for x in PM_PIC.split()]
@@ -621,14 +621,14 @@ async def inline_handler(event):  # sourcery no-metrics
         else:
             buttons = [
                 (
-                    Button.url("❰𝗢𝗪𝗡𝗘𝗥❱", "https://t.me/OFFICIALHACKERERA"),
+                    Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/OFFICIALHACKERERA"),
                     Button.url(
                         "❰𝗚𝗥𝗢𝗨𝗣❱",
                         "https://t.me/SpyXHacker",
                     ),
                 )
             ]
-            ALV_PIC = "https://telegra.ph/file/29a54e920cd2b9a966e3d.jpg"
+            ALV_PIC = "https://telegra.ph/file/a09cadf1d4024d405a8a0.jpg"
             markup = event.client.build_reply_markup(buttons)
             photo = types.InputWebDocument(
                 url=ALV_PIC, size=0, mime_type="image/jpeg", attributes=[]
