@@ -1,7 +1,7 @@
 from telethon import events
 
 PM_IMG = "https://telegra.ph/file/c26fc61e904476083baa7.jpg"
-pm_caption = f"⚜ LegendBot is Online ⚜ \n\n"
+pm_caption = f"⚜ hhvvvvc ⚜ \n\n"
 pm_caption += f"Owner ~ 『{legend_mention}』\n"
 pm_caption += f"**╭───────────**\n"
 pm_caption += f"┣Telethon ~ `1.15.0` \n"
