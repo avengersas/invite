@@ -17,7 +17,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("USERBOT....")
+LOGS = logging.getLogger("BOT....")
 
 print(userbot.__copyright__)
 print("Licensed under the terms of the " + userbot.__license__)
@@ -26,7 +26,7 @@ cmdhr = Config.HANDLER
 
 
 try:
-    LOGS.info("Starting Userbot")
+    LOGS.info("STARTING BOT")
     legend.loop.run_until_complete(setup_bot())
     LOGS.info("TG Bot Startup Completed")
 except Exception as e:
